@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amal Eldesouky - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Amal ELdesouky Portofolio</a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero section container">
+            <div class="hero-content slide-up">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Amal Eldesouky</h1>
+                <h2 class="hero-title">Project Manager (E-Commerce)| Scrum Master & Agile Coach</h2>
+                <div class="hero-buttons">
+                    <a href="./files/Amal.Resume.pdf" target="_blank" class="btn btn-primary"><i class="fas fa-download"></i> Download CV</a>
+                    <a href="mailto:amaleldesouky47@gmail.com" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-out">
+                <div class="image-placeholder">
+                    <img src="./me.jpeg" alt="This is ME">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about section container">
+            <div class="section-header fade-in">
+                <h2>Professional Objective</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content slide-up">
+                <p>Organized and results-driven E-commerce & Project Management professional with extensive experience
+                    in operations, sales, and account management. Proven track record in managing international Amazon
+                    brands, optimizing listings, and implementing efficient SOPs. Skilled in cross-team coordination and
+                    leveraging project management tools like ClickUp and Agile methodologies to drive business growth.
+                </p>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="skills section container">
+            <div class="section-header fade-in">
+                <h2>Core Competencies</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Project Management -->
+                <div class="skill-category slide-up" style="--delay: 1">
+                    <h3><i class="fas fa-tasks"></i> Project Management</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Agile & Scrum</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SOP Creation</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Task Tracking (ClickUp)</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Process Optimization</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category slide-up" style="--delay: 2">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="tags-container">
+                        <span class="tag">Advanced Communication</span>
+                        <span class="tag">Strategic Time Management</span>
+                        <span class="tag">Analytical Problem Solving</span>
+                        <span class="tag">Adaptability</span>
+                        <span class="tag">Task Orientation</span>
+                        <span class="tag">Collaborative Teamwork</span>
+                        <span class="tag">Attention to Detail</span>
+                    </div>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="skill-category slide-up" style="--delay: 3">
+                    <h3><i class="fas fa-laptop-code"></i> Technical</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Microsoft Office Suite</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Reporting & Data Analysis</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Canva & Photoshop</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Video Editing</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="experience section container">
+            <div class="section-header fade-in">
+                <h2>Professional Experience</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item slide-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="role">Project Coordinator</h3>
+                            <span class="duration">07/2025 – Present</span>
+                        </div>
+                        <h4 class="company">Amazon Camping Gear Brand (Remote)</h4>
+                        <ul class="duties">
+                            <li>Coordinating projects for international brands across Amazon marketplaces (US, Canada,
+                                Europe)</li>
+                            <li>Managing SOP creation and workflow documentation</li>
+                            <li>Leading task management on ClickUp</li>
+                            <li>Optimizing Amazon listings</li>
+                            <li>Executing performance enhancement projects</li>
+                            <li>Leading The Internship Program</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item slide-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="role">Manager Assistant</h3>
+                            <span class="duration">08/2023 – 06/2025</span>
+                        </div>
+                        <h4 class="company">Lotus MG (Elmoalmeen Hospital), Port Said</h4>
+                        <ul class="duties">
+                            <li>Administrative support and scheduling</li>
+                            <li>Cross-department coordination</li>
+                            <li>Reporting and documentation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item slide-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="role">Sales Manager</h3>
+                            <span class="duration">01/2023 – 08/2023</span>
+                        </div>
+                        <h4 class="company">Tool Advertising Company</h4>
+                        <ul class="duties">
+                            <li>Client data analysis</li>
+                            <li>Client management and invoicing</li>
+                            <li>Sales team leadership</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item slide-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="role">Operation Manager</h3>
+                            <span class="duration">02/2021 – 2023</span>
+                        </div>
+                        <h4 class="company">Eleiada Polyclinic</h4>
+                        <ul class="duties">
+                            <li>Operations management</li>
+                            <li>Staff coordination</li>
+                            <li>Performance reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & CERTIFICATIONS -->
+        <section id="education" class="edu-cert section container">
+            <div class="grid-2-cols">
+                <div class="education fade-in">
+                    <div class="section-header">
+                        <h2>Education</h2>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="card slide-up">
+                        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="card-content">
+                            <h3>Bachelor’s Degree in Geoscience</h3>
+                            <h4>Port Said University</h4>
+                            <p class="grade">Grade: Very Good</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications fade-in">
+                    <div class="section-header">
+                        <h2>Certifications</h2>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="cards-list slide-up">
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>HR Specialist</h4>
+                                <span>HRCI, 2022</span>
+                                <p class="cert-desc">Certified in core HR disciplines including talent acquisition, employee relations, compensation & benefits, and workforce planning. Accredited by the HR Certification Institute (HRCI).</p>
+                                <a href="./files/19.pdf" target="_blank" class="cert-link"><i class="fas fa-file-pdf"></i> View Certificate</a>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Agile & Scrum</h4>
+                                <span>2023</span>
+                                <p class="cert-desc">Proficient in Agile project management methodologies, Scrum frameworks, sprint planning, backlog management, and iterative delivery processes for cross-functional teams.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Petrophysics & Well Logging</h4>
+                                <span>2018</span>
+                                <p class="cert-desc">Specialized training in subsurface formation evaluation, well log interpretation, and petrophysical analysis techniques for geoscience applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="languages-wrapper fade-in mt-section">
+                <div class="section-header text-center">
+                    <h2>Languages</h2>
+                    <div class="divider mx-auto"></div>
+                </div>
+                <div class="languages-grid slide-up">
+                    <div class="lang-item">
+                        <h4>Arabic</h4>
+                        <div class="lang-level">
+                            <div class="level-dot active"></div>
+                            <div class="level-dot active"></div>
+                            <div class="level-dot active"></div>
+                            <div class="level-dot active"></div>
+                            <div class="level-dot active"></div>
+                        </div>
+                        <span class="level-text">Native</span>
+                    </div>
+                    <div class="lang-item">
+                        <h4>English</h4>
+                        <div class="lang-level">
+                            <div class="level-dot active"></div>
+                            <div class="level-dot active"></div>
+                            <div class="level-dot active"></div>
+                            <div class="level-dot active"></div>
+                            <div class="level-dot"></div>
+                        </div>
+                        <span class="level-text">Advanced</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER / CONTACT -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container fade-in">
+            <div class="footer-brand">
+                <h2>AE.</h2>
+                <p>Amal Eldesouky</p>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Port Said, Egypt</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><a href="mailto:amaleldesouky47@gmail.com"><i class="fas fa-envelope"></i>
+                            amaleldesouky47@gmail.com</a></li>
+                    <li><a href="tel:+201098272847"><i class="fas fa-phone"></i> +201098272847</a></li>
+                    <li><a href="https://linkedin.com/in/amal-eldesouky-68b083150" target="_blank"><i
+                                class="fab fa-linkedin"></i> LinkedIn Profile</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amal Eldesouky. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
